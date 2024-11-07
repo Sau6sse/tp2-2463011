@@ -1,0 +1,16 @@
+*.suo
+*.user
+*.userprefs
+*.exe
+*.dll
+*.lib
+*.obj
+.env
+
+.vs/
+bin/
+obj/
+TestResults/
+.idea/
+node_modules/
+out/

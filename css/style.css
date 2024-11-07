@@ -1,0 +1,113 @@
+html, body {
+    height: 100%;
+}
+.body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-image: url("../img/imageBackGround.jpg");
+}
+.page {
+    width: 1200px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+h1 {
+    text-align: center;
+    color: purple;
+}
+h2 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: purple;
+}
+
+.fieldsetNav {
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgLogo {
+    float: left;
+
+}
+.imgTexte {
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.fieldset1 {
+    height: 400px;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    float: left;
+    margin-bottom: 30px;
+    
+
+}
+.fieldset2{
+    height: 400px;
+    width: 30%;
+    box-sizing: border-box;
+    display: inline;
+    float: right;
+    margin: 0;
+    margin-bottom: 30px;
+
+}
+.texteEnDessousImage {
+    color: yellow;
+    width: 700px;
+    margin-left: 20px;
+    text-align: left;
+}
+.imageCotéTexte{
+    float: left;
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+    
+}
+li {
+    margin-bottom: 30px;
+}
+.paragrapheNouvelles{
+    margin-bottom: 70px;
+    color: purple;
+}
+.HautDePage {
+    float: left;
+}
+#texteFooter {
+    color: yellow;
+    text-align: center;
+
+}
+#texteFooter2 {
+    color: yellow;
+    float: left;
+}
+#texteFooter3 {
+    color: yellow;
+    text-align: center;
+}
+#texteFooter4 {
+    color: yellow;
+    text-align: right;
+}
+.flexImage {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.DivImages {
+    float: left;
+}
+

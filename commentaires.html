@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <!-- Ryan Blanchette -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commentaires</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <header>
+        <h1>Commentaires</h1>
+        <fieldset>
+            <nav class="fieldsetNav">
+              <a href="index.html">Accueil</a>
+              <a href="galerie-images.html">Galerie Photo</a>
+              <a href="commentaires.html">Commentaires</a>
+              <a href="connexion.html">Connexion</a>
+            </nav>
+          </fieldset>
+    </header>
+    <main>
+        <fieldset>
+        <form class="formCentre" action="mailto:2463011@csfoy.ca" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required><br><br>
+            <label for="courriel">Courriel :</label>
+            <input type="email" id="courriel" name="courriel" required><br><br>
+            <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone" placeholder="###-###-####"><br><br>
+        <label for="province">Province :</label>
+        <select id="province" name="province">
+            <option value="Alberta">Alberta</option>
+            <option value="Colombie-Britannique">Colombie-Britannique</option>
+            <option value="Manitoba">Manitoba</option>
+            <option value="Nouvelle-Écosse">Nouvelle-Écosse</option>
+            <option value="Ontario">Ontario</option>
+            <option value="Québec" selected>Québec</option>
+        </select><br><br>
+        <label for="date_naissance">Date de naissance :</label>
+        <input type="date" id="date_naissance" name="date_naissance"><br><br>
+        <label for="commentaires">Commentaires :</label><br>
+        <textarea id="commentaires" name="commentaires" rows="7" cols="40"></textarea><br><br>
+        <fieldset>
+            <legend>Vos goûts cinématographiques :</legend>
+            <input type="checkbox" id="action" name="genres" value="Action">
+            <label for="action">Action</label><br>
+
+            <input type="checkbox" id="comedie" name="genres" value="Comédie">
+            <label for="comedie">Comédie</label><br>
+
+            <input type="checkbox" id="drame" name="genres" value="Drame">
+            <label for="drame">Drame</label><br>
+
+            <input type="checkbox" id="suspense" name="genres" value="Suspense">
+            <label for="suspense">Suspense</label><br>
+
+            <input type="checkbox" id="horreur" name="genres" value="Horreur">
+            <label for="horreur">Horreur</label><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Notez notre site Web :</legend>
+            <input type="radio" id="excellent" name="note" value="Excellent" checked>
+            <label for="excellent">Excellent</label><br>
+
+            <input type="radio" id="tresbien" name="note" value="Très bien">
+            <label for="tresbien">Très bien</label><br>
+
+            <input type="radio" id="moyen" name="note" value="Moyen">
+            <label for="moyen">Moyen</label><br>
+
+            <input type="radio" id="bof" name="note" value="Bof">
+            <label for="bof">Bof</label><br>
+        </fieldset><br>
+        <button type="submit">Envoyer les commentaires</button>
+    </form>
+        </form>
+    </fieldset>
+    </main>
+</body>
+</html>
